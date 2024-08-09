@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body> 
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>PURSUING MASTERS IN DATA SCIENCE</p>
+            <h1>Hi!! I am <span>Vani Sumedha</span></h1>
+        </div>
+    </div>  
+</div>
+<!----------------------about-->
+<div id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="ABOUT-col1">
+                <img src="images/user.png">
+            </div>
+            <div class="ABOUT-col2">
+                <h1 class="sub-title"> ABOUT ME </h1>
+                <p>I am Sumedha from Hyderabad, Telangana. I have a master’s degree in field of data science and a 
+                    passion for solving issues by processing and analyzing data. Here's why I'm looking for an innovative 
+                    and data-driven company with a rich history of using data to improve the quality of its products</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links"onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links"onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>PYTHON</span></li>
+                            <li><span>NLP</span></li>
+                            <li><span>HTML,CSS</span></li>
+                            <li><span>SQL</span></li>
+                            <li><span>NEURAL NETWORKS</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>The Ybi Foundation - July
+                                      Virtual Internship</span></li>
+                            <li><span>Codsoft - August
+                                      Virtual Internship</span></li>
+                            <li><span>Oasis Infobyte - August
+                                      Virtual Internship</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>MSC(Data Science)
+                                      2023-2025</span></li>
+                            <li><span>BSc(Hons)Data Science
+                                      2020-2023</span></li>
+                            <li><span>Intermediate
+                                      2018-2020</span></li>
+                            <li><span>SSC(X)
+                                      2018</span></li>
+
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------services------------>
+<div id="servies">
+    <div class="container">
+        <h1 class="sub-title"> MY SERVICES </h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Development</h2>
+                <p>Website designing and development play an important role in welcoming traffic and converting it into leads.
+                    Many developers also use coding to produce unique effects for websites.</p>
+            </div>
+            <div>
+                <h2>Python</h2>
+                <p>Python is commonly used for developing websites and software, task automation, data analysis, and data visualization.
+                    It was named after Monty Python's Flying Circus, so you know someone had a sense of humor developing this code and thus made it simple to use.</p>
+            </div>
+            <div>
+                <h2>SQL</h2>
+                <p>SQL is the backbone of data management in various industries. 
+                   According to recent surveys, approximately 80% of the world's data is stored in databases that use SQL for querying and manipulation.
+                   This ubiquity highlights the language's pivotal role in managing and extracting insights from massive datasets.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>FASHION MNIST IMAGE CLASSIFICATION</h3>
+                    <p>Machine Learning Project that aims to segregate clothing items in the fashion MNIST dataset 
+                        into categories. Employed Convolutional Neural Networks as key tool with python to achieve 
+                        maximum accuracy. </p> 
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3> SENTIMENT ANALYSIS ON ENGINEERING STUDENT'S FEEDBACK</h3>
+                    <p>A project to analyze student feedback on engineering education using Natural Language 
+                        Processing techniques. Conducted sentiment analysis using NLTK and identify key sentiments 
+                        in the feedback. </p>
+                </div>   
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>BMI CALCULATOR</h3>
+                    <p>Developed the desktop application that calculates the BMI of the person. The application 
+                        involves the usage of Python Language as a key tool. Additionally, gives personalized 
+                        suggestions to the individuals to balance health and nutrition.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!-----------contact------------>
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME </h1>
+                <p><i class="fa-regular fa-address-book"></i>sumedhajanamanchi@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9885169969</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/VANI SUMEDHA JANAMANCHI-PDF.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+      
+</body>   
+</html> 
